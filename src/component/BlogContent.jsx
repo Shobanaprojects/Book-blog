@@ -18,7 +18,7 @@ const BlogContent = () => {
             <div className="blog-content">
                 <div className="row">
                     <div className="col-md-8 col-lg-9">
-                        <div className="blogcontent-img">
+                        <div className="blogcontentimg-container">
                             <img src={post.image} alt="no data found" />
                         </div>
                         <div className="blogcontent-des">

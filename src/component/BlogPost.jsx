@@ -27,20 +27,19 @@ const BlogPost = () => {
 
                                     {/* Right side */}
                                     <div className="col-lg-7 p-4">
-                                        <div className="d-flex justify-content-between mb-4">
-                                            <div className="d-flex align-items-center">
-                                                <div className="user-details">
+                                        <div className="d-flex justify-content-between mb-2">
+                                                <div className="author-details">
                                                     <h6 class="mb-0">{item.author}</h6>
                                                     <h6 class="text-muted">{item.date}</h6>
                                                 </div>
-                                            </div>
+
                                             <div><FontAwesomeIcon icon={faEllipsisV} /></div>
                                         </div>
                                         <div className="postcontainer border-bottom">
                                             <h2>{item.title}</h2>
-                                            <p className="subtitle text-break">{item.description}</p>
+                                            <p className="subtitle">{item.description}</p>
                                         </div>
-                                        <div className="d-flex justify-content-between mt-3 comment-container">
+                                        <div className="d-flex justify-content-between mt-2 review-container">
                                             <div className="d-flex">
                                                 <h6>{item.views} views</h6>
                                             </div>

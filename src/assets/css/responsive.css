@@ -25,12 +25,12 @@
         margin-top: 45px !important;
     }
 
-    .banner-img img {
+    .banner-img {
         height: 250px;
     }
 
-    .bookimage-container img {
-        height: 200px;
+    .bookimage-container {
+        height: 230px;
     }
 
     .blog .col-md-7 {
@@ -46,11 +46,11 @@
         font-size: 15px;
     }
 
-    .blogcontent-img img {
+    .blogcontentimg-container {
         height: 230px;
     }
 
-    .sidebar-item img {
+    .sidebarimg-container {
         height: 200px;
     }
 
@@ -68,7 +68,7 @@
     }
 
     .postcontainer {
-        padding: 0px;
+        padding: 10px;
     }
 
 }

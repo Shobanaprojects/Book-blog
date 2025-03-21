@@ -10,7 +10,9 @@ const Sidebar = () => {
             <div className="sidebar">
                 <div className="sidebar-item">
                     <div className="sidebar-title text-center border-bottom border-top border-secondary">About me</div>
-                    <img src={aboutusimg} alt="no image found" />
+                    <div className="sidebarimg-container">
+                        <img src={aboutusimg} alt="no data found" />
+                    </div>
                     <p>I love books! I read every day, all the time, as much as I can and sometimes even more than I should. Love fantasy, mystery, thriller...</p>
                 </div>
                 <div className="sidebar-item">
